@@ -62,7 +62,7 @@ export function Header() {
 
         <div className="flex items-center gap-2">
           <Link
-            href="tel:+902164462446"
+            href="tel:+905327040697"
             className={`hidden md:inline-flex items-center gap-2 px-3 py-2 text-sm font-medium transition-colors ${
               scrolled
                 ? "text-[color:var(--navy-950)]/80 hover:text-[color:var(--navy-950)]"
@@ -70,7 +70,7 @@ export function Header() {
             }`}
           >
             <Phone className="size-4" />
-            <span className="hidden xl:inline">+90 216 446 24 46</span>
+            <span className="hidden xl:inline">+90 532 704 06 97</span>
           </Link>
           <Button
             asChild

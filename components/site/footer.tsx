@@ -127,14 +127,17 @@ export function Footer() {
                   34944 Tuzla / İstanbul
                 </span>
               </li>
-              <li className="flex items-center gap-3">
-                <Phone className="size-4 shrink-0 text-[color:var(--sand)]" />
-                <Link
-                  href="tel:+902164462446"
-                  className="transition-colors hover:text-white"
-                >
-                  +90 216 446 24 46
-                </Link>
+              <li className="flex items-start gap-3">
+                <Phone className="mt-0.5 size-4 shrink-0 text-[color:var(--sand)]" />
+                <div className="flex flex-col">
+                  <span className="text-white">Halil Orhan Yüzseven</span>
+                  <Link
+                    href="tel:+905327040697"
+                    className="transition-colors hover:text-white"
+                  >
+                    +90 532 704 06 97
+                  </Link>
+                </div>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="size-4 shrink-0 text-[color:var(--sand)]" />

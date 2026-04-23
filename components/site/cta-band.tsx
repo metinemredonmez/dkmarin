@@ -47,7 +47,7 @@ export function CtaBand() {
                 variant="outline"
                 className="h-12 rounded-full border-white/25 bg-transparent px-6 text-white hover:bg-white/10 hover:text-white"
               >
-                <Link href="tel:+902164462446">
+                <Link href="tel:+905327040697">
                   <Phone className="size-4" />
                   Bizi Arayın
                 </Link>

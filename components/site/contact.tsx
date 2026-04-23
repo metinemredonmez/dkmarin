@@ -29,8 +29,8 @@ const INFO = [
   },
   {
     icon: Phone,
-    title: "Telefon",
-    lines: ["+90 216 446 24 46"],
+    title: "Yetkili",
+    lines: ["Halil Orhan Yüzseven", "+90 532 704 06 97"],
   },
   {
     icon: Mail,
