@@ -80,6 +80,9 @@ export async function POST(req: Request) {
     port,
     secure: port === 465,
     auth: { user, pass },
+    tls: {
+      rejectUnauthorized: false,
+    },
   });
 
   const html = `
